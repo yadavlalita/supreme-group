@@ -7,7 +7,7 @@ const Footer = () => {
           
           {/* Logo */}
           <div className="flex">
-            <img src="./src/assets/logo.jpeg" alt="Supreme Group" className="w-50" />
+            <img src=".public/logo.jpeg" alt="Supreme Group" className="w-50" />
           </div><br/>
 
           {/* Navigation Sections */}

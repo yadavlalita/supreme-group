@@ -2,12 +2,12 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const videos: Record<"complete" | "front" | "cabin" | "trunk" | "exterior" | "commercial", string> = {
-  complete: "./src/assets/v6.mp4",
-  front: "./src/assets/v4.mp4",
-  cabin: "./src/assets/v1.mp4",
-  trunk: "./src/assets/v5.mp4",
-  exterior: "./src/assets/v2.mp4",
-  commercial: "./src/assets/v3.mp4",
+  complete: ".public/v6.mp4",
+  front: "./public/v4.mp4",
+  cabin: "./public/v1.mp4",
+  trunk: "./public/v5.mp4",
+  exterior: "./public/v2.mp4",
+  commercial: "./public/v3.mp4",
 };
 
 const VehicleSolutions = () => {
